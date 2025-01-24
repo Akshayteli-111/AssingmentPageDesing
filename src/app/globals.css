@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+
+.imghightAdj{
+    height: 500px;
+}
+
+
+@media screen and (max-width:768px) {
+.imghightAdj{
+height: 400px;
+}
+}
+
